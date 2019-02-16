@@ -13,4 +13,4 @@
 8. Accept the pull request to add the new stuff!
 9. Delete the no longer needed new branch
 
-10. Celebrate with virtual champagne! :champagne:
+10. Celebrate with virtual champagne! :champagne: :confetti_ball:
