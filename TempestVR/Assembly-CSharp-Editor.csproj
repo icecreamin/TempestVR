@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{138D1A3A-7B27-BE46-5321-6B4AF7E1AEDF}</ProjectGuid>
+    <ProjectGuid>{9C7249EC-CCBD-0E1F-6527-9AB7E8C1282F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -143,7 +143,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/domen/Desktop/Unity Stuff/vr experimentation 1/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/domen/Desktop/TempestVR/TempestVR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -169,7 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C2D33D11-26DF-AF3B-5A20-63F1260A91F2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{81A65C02-AA41-9E7B-B195-77D03AB8305D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
