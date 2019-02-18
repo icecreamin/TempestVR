@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C2D33D11-26DF-AF3B-5A20-63F1260A91F2}</ProjectGuid>
+    <ProjectGuid>{81A65C02-AA41-9E7B-B195-77D03AB8305D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\OurStuff\Scripts\ActionsTest.cs" />
+     <Compile Include="Assets\OurStuff\Scripts\ControllerGrabObject.cs" />
+     <Compile Include="Assets\OurStuff\Scripts\LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
@@ -206,13 +209,9 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy.cs" />
-     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_buggy_In.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_In.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_default_Out.cs" />
-     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer.cs" />
-     <Compile Include="Assets\SteamVR_Input\ActionObjects\SteamVR_Input_ActionSet_platformer_In.cs" />
      <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
      <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
@@ -225,6 +224,7 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\OurStuff\Scripts\test.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
@@ -257,7 +257,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/domen/Desktop/Unity Stuff/vr experimentation 1/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/domen/Desktop/TempestVR/TempestVR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
