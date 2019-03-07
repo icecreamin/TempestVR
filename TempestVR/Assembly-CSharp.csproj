@@ -53,7 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\OurStuff\Scripts\ActionsTest.cs" />
      <Compile Include="Assets\OurStuff\Scripts\ControllerGrabObject.cs" />
+     <Compile Include="Assets\OurStuff\Scripts\cube jump.cs" />
      <Compile Include="Assets\OurStuff\Scripts\LaserPointer.cs" />
+     <Compile Include="Assets\OurStuff\Scripts\SpawnCube.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
@@ -224,7 +226,7 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
-     <None Include="Assets\OurStuff\Scripts\test.txt" />
+     <None Include="Assets\OurStuff\Scripts\todo.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
@@ -257,7 +259,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.15f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/domen/Desktop/TempestVR/TempestVR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/domen/Desktop/TempestVR/Dom TempestVR/TempestVR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
