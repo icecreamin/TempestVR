@@ -42,15 +42,13 @@ GameObject:
   - component: {fileID: 114923290658771214}
   - component: {fileID: 54716317062448272}
   - component: {fileID: 82902087996342242}
-  - component: {fileID: 65808379748657474}
-  - component: {fileID: 114456757667429686}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1666926071381104
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,6 +75,7 @@ GameObject:
   - component: {fileID: 33915806538375072}
   - component: {fileID: 65079996185155884}
   - component: {fileID: 23836126928265438}
+  - component: {fileID: 114659349080723474}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -119,8 +118,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1666926071381104}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8000001, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4331679516143046}
@@ -189,7 +188,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9d5a33ae37b1e0740b46de1e2e9f60aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -238,10 +237,10 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1938392803078182}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65463696152518980
 BoxCollider:
@@ -254,18 +253,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0.8, z: 2}
---- !u!65 &65808379748657474
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1504538421072362}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0.8, z: 2}
 --- !u!81 &81874516985409824
 AudioListener:
@@ -354,18 +341,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114456757667429686
+--- !u!114 &114659349080723474
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1504538421072362}
+  m_GameObject: {fileID: 1938392803078182}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c549e0908451064b915cdd1beaf5486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
   canHold: 1
   ball: {fileID: 0}
   guide: {fileID: 4843647070563406}

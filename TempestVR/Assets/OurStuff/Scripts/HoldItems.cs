@@ -6,8 +6,8 @@ using Valve.VR;
 
 //code found at https://answers.unity.com/questions/1268357/pick-upthrow-object.html
 public class HoldItems : MonoBehaviour {
-	//speed at which things are thrown when dropped
-	public float speed = 0;
+	//hold to throw!!
+	private float speed = 0;
 	public bool canHold = true;
 	//the object to hold. start as empty
 	//any object intended to be held should be tagged "holdable"
@@ -15,15 +15,29 @@ public class HoldItems : MonoBehaviour {
 	//make an empty GameObject and set that as the guide
 	//this is where the held object will be held
 	public Transform guide;
-
+	private bool held = false;
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(0))
+		//if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButton (0)) {
+			if (speed < 17f)
+				speed += 0.5f;
+			held = true;
+		}
+		else if (held)
 		{
-			if (!canHold) //already holding
+			if (!canHold) {//already holding
+				
+				speed -= 2; //gives user a bit of time to hold
+				if (speed < 0) 
+					speed = 0;
+				
 				throw_drop();
+			}
 			else
 				Pickup();
+			speed = 0;
+			held = false;
 		}//if left-click
 
 		if (!canHold && ball)
