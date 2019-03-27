@@ -245,10 +245,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\OurStuff\Scripts\ActionsTest.cs" />
+    <Compile Include="Assets\OurStuff\Scripts\CauldronCollision.cs" />
     <Compile Include="Assets\OurStuff\Scripts\ControllerGrabObject.cs" />
     <Compile Include="Assets\OurStuff\Scripts\HoldItems.cs" />
     <Compile Include="Assets\OurStuff\Scripts\LaserPointer.cs" />
     <Compile Include="Assets\OurStuff\Scripts\modeDetector.cs" />
+    <Compile Include="Assets\OurStuff\Scripts\Spawning\GuidedSpawner.cs" />
+    <Compile Include="Assets\OurStuff\Scripts\Spawning\HealthReduction.cs" />
+    <Compile Include="Assets\OurStuff\Scripts\Spawning\WepDmg.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
