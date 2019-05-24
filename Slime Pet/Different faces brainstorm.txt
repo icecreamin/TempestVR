@@ -1,0 +1,16 @@
+~Faces~
+-Normal
+-angry
+-moving
+-happy
+
+Happy when you look at it
+Angry when looking at an enemy or fighting
+normal the rest of the time
+
+
+inside eye colour - febdff RGB: 254 189 255
+eyebrows - e508e7 RGB: 229 8 231
+body - fe7cff RGB: 254 124 255
+
+
