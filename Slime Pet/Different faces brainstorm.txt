@@ -5,7 +5,7 @@
 -happy
 
 Happy when you look at it
-Angry when looking at an enemy or fighting
+Angry when looking at an enemy or fighting or moving
 normal the rest of the time
 
 
